@@ -24,15 +24,7 @@ const theme = createTheme({
     // This replaces global CSS like body/html/reset/link styles
     MuiCssBaseline: {
       styleOverrides: {
-        "html, body, #root": {
-          height: "100%",
-          maxWidth: "1280px",
-          margin: "0 auto",
-          textAlign: "center",
-          // display: "flex",
-          // flexDirection: "column",
-          // justifyContent: "center",
-        },
+        "*": { boxSizing: "border-box", padding: "0", margin: "0" },
         body: {
           color: "#fff",
           margin: "0",
