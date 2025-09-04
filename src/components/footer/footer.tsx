@@ -28,7 +28,7 @@ const SocialIcons = () => {
   );
 };
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <Box
       sx={{
@@ -62,5 +62,3 @@ const Footer = () => {
     </Box>
   );
 };
-
-export default Footer;

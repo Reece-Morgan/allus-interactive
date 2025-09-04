@@ -1,7 +1,6 @@
 import { Box } from "@mui/material";
 import logo from "./assets/logo.svg";
-import Header from "@components/header/header";
-import Footer from "@components/footer/footer";
+import { Header, Footer } from "@components";
 
 const App = () => {
   return (

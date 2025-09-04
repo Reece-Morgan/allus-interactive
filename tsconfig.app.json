@@ -26,6 +26,7 @@
     /* Dynamic Paths*/
     "baseUrl": "src",
     "paths": {
+      "@components": ["components/index.ts"],
       "@components/*": ["components/*"]
     }
   },

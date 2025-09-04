@@ -2,7 +2,7 @@ import { Box } from "@mui/material";
 import theme from "../../theme";
 import logo from "../../assets/banner-large-transparent.svg";
 
-const Header = () => {
+export const Header = () => {
   return (
     <Box
       sx={{
@@ -35,5 +35,3 @@ const Header = () => {
     </Box>
   );
 };
-
-export default Header;
