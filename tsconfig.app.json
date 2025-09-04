@@ -28,7 +28,10 @@
     "paths": {
       "@components": ["components/index.ts"],
       "@components/*": ["components/*"]
-    }
+    },
+
+    /* Types */
+    "types": ["vitest/globals"]
   },
   "include": ["src"]
 }
