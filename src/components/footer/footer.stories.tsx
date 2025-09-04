@@ -5,5 +5,5 @@ export default {
   component: Footer,
 };
 
-export const MainFooter = () => <Footer />;
-MainFooter.storyName = "Footer";
+export const FooterComponent = () => <Footer />;
+FooterComponent.storyName = "Footer";

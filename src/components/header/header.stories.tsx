@@ -5,5 +5,5 @@ export default {
   component: Header,
 };
 
-export const MainHeader = () => <Header />;
-MainHeader.storyName = "Header";
+export const HeaderComponent = () => <Header />;
+HeaderComponent.storyName = "Header";
