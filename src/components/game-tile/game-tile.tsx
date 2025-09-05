@@ -1,0 +1,44 @@
+import { Box, Button } from "@mui/material";
+
+interface Props {
+  img: string;
+  altText: string;
+  buttonText: string;
+  buttonLink: string;
+}
+
+export const GameTile = ({ img, altText, buttonText, buttonLink }: Props) => {
+  return (
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        padding: "20px",
+        width: "30%",
+        gap: "25px",
+      }}
+    >
+      <Box
+        component="img"
+        src={img}
+        alt={altText}
+        sx={{
+          width: "200px",
+          height: "auto",
+          minWidth: "150px",
+          paddingBottom: "0",
+        }}
+      />
+      <Button
+        variant="outlined"
+        size="medium"
+        href={buttonLink}
+        sx={{ height: "30px" }}
+      >
+        {buttonText}
+      </Button>
+    </Box>
+  );
+};
