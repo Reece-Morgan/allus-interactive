@@ -25,7 +25,7 @@ export const GameTile = ({ img, altText, buttonText, buttonLink }: Props) => {
         src={img}
         alt={altText}
         sx={{
-          width: "200px",
+          width: "300px",
           height: "auto",
           minWidth: "150px",
           paddingBottom: "0",
