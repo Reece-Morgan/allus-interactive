@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { Hero } from "./hero";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/logo/logo.svg";
 
 describe("Hero", () => {
   it("renders as expected", () => {

@@ -1,7 +1,7 @@
 import { Box, IconButton, Stack } from "@mui/material";
 import { Instagram, X } from "@mui/icons-material";
 import theme from "../../theme";
-import logo from "../../assets/banner-small-transparent.svg";
+import banner from "../../assets/banners/banner-small-transparent.svg";
 
 const SocialIcons = () => {
   return (
@@ -54,8 +54,8 @@ export const Footer = () => {
         <SocialIcons />
         <Box
           component="img"
-          src={logo}
-          alt="Allus Interactive Logo"
+          src={banner}
+          alt="Allus Interactive banner"
           sx={{ width: "auto", height: "75px", minWidth: "300px" }}
         />
       </Box>

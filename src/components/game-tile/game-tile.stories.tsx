@@ -1,5 +1,5 @@
 import { GameTile } from "./game-tile";
-import logo from "../../assets/placeholder.svg";
+import placeholder from "../../assets/placeholder.svg";
 
 export default {
   title: "Components/GameTile",
@@ -8,7 +8,7 @@ export default {
 
 export const GameTileComponent = () => (
   <GameTile
-    img={logo}
+    img={placeholder}
     altText="Game Screenshot"
     buttonText="Game Name"
     buttonLink="#external-link"

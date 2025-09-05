@@ -1,5 +1,5 @@
 import { Hero } from "./hero";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/logo/logo.svg";
 
 export default {
   title: "Components/Hero",

@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import logo from "./assets/logo.svg";
+import logo from "./assets/logo/logo.svg";
 import { Footer, Header, Hero } from "@components";
 
 const App = () => {
@@ -16,10 +16,7 @@ const App = () => {
           margin: "0 auto",
         }}
       >
-        <Hero
-          img={logo}
-          altText="Allus Interactive Logo"
-        />
+        <Hero img={logo} altText="Allus Interactive Logo" />
       </Box>
       <Footer />
     </>

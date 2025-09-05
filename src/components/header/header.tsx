@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import theme from "../../theme";
-import logo from "../../assets/banner-large-transparent.svg";
+import banner from "../../assets/banners/banner-large-transparent.svg";
 
 export const Header = () => {
   return (
@@ -22,8 +22,8 @@ export const Header = () => {
       >
         <Box
           component="img"
-          src={logo}
-          alt="Allus Interactive Logo"
+          src={banner}
+          alt="Allus Interactive banner"
           sx={{
             height: "50px",
             width: "auto",

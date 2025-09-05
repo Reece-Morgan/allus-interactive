@@ -1,12 +1,12 @@
 import { render, screen } from "@testing-library/react";
 import { GameTile } from "./game-tile";
-import logo from "../../assets/logo.svg";
+import placeholder from "../../assets/placeholder.svg";
 
 describe("Gametile", () => {
   it("renders as expected", () => {
     render(
       <GameTile
-        img={logo}
+        img={placeholder}
         altText="Game Image"
         buttonText="Game Name"
         buttonLink="#external-link"
@@ -23,7 +23,7 @@ describe("Gametile", () => {
   it("renders the image as expected", () => {
     render(
       <GameTile
-        img={logo}
+        img={placeholder}
         altText="Game Image"
         buttonText="Game Name"
         buttonLink="#external-link"
@@ -37,7 +37,7 @@ describe("Gametile", () => {
   it("renders the button as expected", () => {
     render(
       <GameTile
-        img={logo}
+        img={placeholder}
         altText="Game Image"
         buttonText="Game Name"
         buttonLink="#external-link"

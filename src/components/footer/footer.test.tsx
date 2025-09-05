@@ -5,7 +5,7 @@ describe("Footer", () => {
   it("renders correctly", () => {
     render(<Footer />);
     expect(
-      screen.getByRole("img", { name: /Allus Interactive Logo/i })
+      screen.getByRole("img", { name: /Allus Interactive Banner/i })
     ).toBeInTheDocument();
   });
 
