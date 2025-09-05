@@ -34,11 +34,11 @@ export const GameTile = ({ img, altText, buttonText, buttonLink }: Props) => {
       />
       <Button
         variant="outlined"
-        size="medium"
+        size="large"
         href={buttonLink}
         target="_blank"
         rel="noopener"
-        sx={{ height: "30px" }}
+        sx={{ width: "150px" }}
       >
         {buttonText}
       </Button>
