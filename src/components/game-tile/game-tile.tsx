@@ -29,12 +29,15 @@ export const GameTile = ({ img, altText, buttonText, buttonLink }: Props) => {
           height: "auto",
           minWidth: "150px",
           paddingBottom: "0",
+          borderRadius: "15px",
         }}
       />
       <Button
         variant="outlined"
         size="medium"
         href={buttonLink}
+        target="_blank"
+        rel="noopener"
         sx={{ height: "30px" }}
       >
         {buttonText}

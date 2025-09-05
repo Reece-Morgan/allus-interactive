@@ -28,8 +28,6 @@ const theme = createTheme({
         body: {
           color: "#fff",
           margin: "0",
-          display: "flex",
-          placeItems: "center",
           minWidth: "320px",
           maxHeight: "100vh",
         },

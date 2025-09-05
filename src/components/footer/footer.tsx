@@ -35,9 +35,6 @@ export const Footer = () => {
         width: "100vw",
         backgroundColor: "transparent",
         borderTop: `1px solid ${theme.palette.primary.main}`,
-        position: "fixed",
-        bottom: 0,
-        left: 0,
       }}
     >
       <Box
