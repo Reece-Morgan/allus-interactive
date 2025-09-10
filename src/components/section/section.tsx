@@ -27,16 +27,33 @@ export const Section = ({ isReversed, img, altText, text, title }: Props) => {
       <Box
         sx={{
           display: "flex",
-          flexDirection: isReversed ? "row-reverse" : "row",
+          flexDirection: {
+            xs: "column",
+            md: isReversed ? "row-reverse" : "row",
+          },
           justifyContent: "space-around",
+          alignItems: {
+            xs: "center",
+          },
           width: "100%",
           maxWidth: "1280px",
+          margin: "0 auto",
+          padding: "20px",
         }}
       >
         <Typography
           sx={{
             maxWidth: "75%",
             whiteSpace: "pre-line",
+            padding: {
+              xs: "10px 0 30px 0;",
+              md: "0",
+            },
+            // textAlign: {
+            //   xs: "justify",
+            //   md: "initial",
+            // },
+            textAlign: "justify",
           }}
           data-testid="section-text"
         >
