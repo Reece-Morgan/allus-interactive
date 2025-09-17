@@ -21,7 +21,17 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* Dynamic Paths*/
+    "baseUrl": "src",
+    "paths": {
+      "@components": ["components/index.ts"],
+      "@components/*": ["components/*"]
+    },
+
+    /* Types */
+    "types": ["vitest/globals"]
   },
   "include": ["src"]
 }
