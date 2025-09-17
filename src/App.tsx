@@ -1,10 +1,14 @@
 import { Box, Typography } from "@mui/material";
-import { Footer, GameTile, Header, Hero } from "@components";
+import { Footer, GameTile, Header, Hero, Section } from "@components";
 import theme from "./theme";
 import logo from "./assets/logo/logo.svg";
 import grillMaster from "./assets/game-tiles/grill-master.svg";
 import pixelSurvivor from "./assets/game-tiles/pixel-survivor.svg";
 import trialsOfKhione from "./assets/game-tiles/trials-of-khione.svg";
+import about from "./assets/sections/about.svg";
+import mgj from "./assets/sections/mgj.svg";
+import games from "./assets/sections/games.svg";
+import { aboutText, mgjText, gamesText } from "./data/constants";
 
 const App = () => {
   return (
@@ -65,6 +69,27 @@ const App = () => {
           buttonLink="https://allusinteractive.itch.io/pixel-survivor"
         />
       </Box>
+      <Section
+        isReversed={false}
+        img={about}
+        altText="About Us"
+        title="About Us"
+        text={aboutText}
+      />
+      <Section
+        isReversed={true}
+        img={games}
+        altText="Games Catalogue"
+        title="Our Games"
+        text={gamesText}
+      />
+      <Section
+        isReversed={false}
+        img={mgj}
+        altText="Moray Game Jam"
+        title="Moray Game Jam"
+        text={mgjText}
+      />
       <Footer />
     </>
   );
