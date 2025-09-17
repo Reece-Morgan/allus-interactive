@@ -7,11 +7,12 @@ interface Props {
   altText: string;
   text: string;
   title: string;
+  id?: string;
 }
 
-export const Section = ({ isReversed, img, altText, text, title }: Props) => {
+export const Section = ({ isReversed, img, altText, text, title, id }: Props) => {
   return (
-    <div data-testid="section">
+    <div data-testid="section" id={id}>
       <Typography
         variant="h4"
         component="h2"

@@ -49,6 +49,8 @@ const App = () => {
           alignItems: "center",
           justifyContent: "space-around",
         }}
+        // TODO: remove id after implementing separate Games page
+        id="games"
       >
         <GameTile
           img={grillMaster}
@@ -75,6 +77,7 @@ const App = () => {
         altText="About Us"
         title="About Us"
         text={aboutText}
+        id="about"
       />
       <Section
         isReversed={true}
