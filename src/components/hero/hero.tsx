@@ -36,7 +36,7 @@ export const Hero = ({
         src={img}
         alt={altText}
         sx={{
-          width: "400px",
+          maxWidth: "400px",
           height: "auto",
           minWidth: "300px",
           paddingBottom: !isButtonVisible ? "90px" : "0",
