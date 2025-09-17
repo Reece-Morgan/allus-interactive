@@ -1,27 +1,26 @@
-import { Box, Link } from "@mui/material";
+import { Box } from "@mui/material";
 import theme from "../../theme";
 import banner from "../../assets/banners/banner-large-transparent.svg";
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Navigation = () => {
-  return (
-    <Box
-      sx={{ display: "flex", flexDirection: "row", gap: "20px" }}
-      data-testId="navigation"
-    >
-      {/* TODO: update links after implementing separate Games page */}
-      <Link variant="inherit" underline="hover" href="#">
-        Home
-      </Link>
-      <Link variant="inherit" underline="hover" href="#games">
-        Games
-      </Link>
-      <Link variant="inherit" underline="hover" href="#about">
-        About
-      </Link>
-    </Box>
-  );
-};
+// const Navigation = () => {
+//   return (
+//     <Box
+//       sx={{ display: "flex", flexDirection: "row", gap: "20px" }}
+//       data-testId="navigation"
+//     >
+//       {/* TODO: update links after implementing separate Games page */}
+//       <Link variant="inherit" underline="hover" href="#">
+//         Home
+//       </Link>
+//       <Link variant="inherit" underline="hover" href="#games">
+//         Games
+//       </Link>
+//       <Link variant="inherit" underline="hover" href="#about">
+//         About
+//       </Link>
+//     </Box>
+//   );
+// };
 
 export const Header = () => {
   return (
