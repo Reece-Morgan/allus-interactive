@@ -36,6 +36,7 @@ export const Footer = () => {
         backgroundColor: "transparent",
         borderTop: `1px solid ${theme.palette.primary.main}`,
       }}
+      data-testId="footer"
     >
       <Box
         sx={{

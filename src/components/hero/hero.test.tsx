@@ -12,9 +12,8 @@ describe("Hero", () => {
         buttonLink="#link"
       />
     );
-    expect(
-      screen.getByRole("img", { name: /Logo Image/i })
-    ).toBeInTheDocument();
+    const heroComponent = screen.getByTestId("hero");
+    expect(heroComponent).toBeInTheDocument();
   });
 
   it("renders the image as expected", () => {

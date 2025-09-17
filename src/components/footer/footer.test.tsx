@@ -4,6 +4,12 @@ import { Footer } from "./footer";
 describe("Footer", () => {
   it("renders correctly", () => {
     render(<Footer />);
+    const footerComponent = screen.getByTestId("footer");
+    expect(footerComponent).toBeInTheDocument();
+  });
+
+  it("renders the logo banner", () => {
+    render(<Footer />);
     expect(
       screen.getByRole("img", { name: /Allus Interactive Banner/i })
     ).toBeInTheDocument();

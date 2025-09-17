@@ -12,6 +12,8 @@ describe("Gametile", () => {
         buttonLink="#external-link"
       />
     );
+    const gameTileComponent = screen.getByTestId("game-tile");
+    expect(gameTileComponent).toBeInTheDocument();
     expect(
       screen.getByRole("img", { name: /Game Image/i })
     ).toBeInTheDocument();

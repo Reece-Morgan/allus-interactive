@@ -11,6 +11,7 @@ export const Header = () => {
         backgroundColor: "transparent",
         borderBottom: `1px solid ${theme.palette.primary.main}`,
       }}
+      data-testId="header"
     >
       <Box
         sx={{
