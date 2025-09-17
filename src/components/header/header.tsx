@@ -27,10 +27,12 @@ export const Header = () => {
     <Box
       sx={{
         width: "100vw",
-        height: {
-          xs: "100px",
-          sm: "60px",
-        },
+        // TODO: add style back in for navigation links
+        // height: {
+        //   xs: "100px",
+        //   sm: "60px",
+        // },
+        height: "60px",
         backgroundColor: theme.palette.background.default,
         borderBottom: `1px solid ${theme.palette.primary.main}`,
         position: "sticky",
@@ -58,9 +60,9 @@ export const Header = () => {
           src={banner}
           alt="Allus Interactive banner"
           sx={{
-            height: "50px",
+            maxHeight: "50px",
             width: "auto",
-            minWidth: "50px",
+            minWidth: "300px",
             margin: " 5px 0",
           }}
         />
