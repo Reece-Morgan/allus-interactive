@@ -1,6 +1,7 @@
 import { Box, Link } from "@mui/material";
 import theme from "../../theme";
 import banner from "../../assets/banners/banner-large-transparent.svg";
+import { HashLink } from "react-router-hash-link";
 
 const Navigation = () => {
   return (
@@ -15,9 +16,11 @@ const Navigation = () => {
       <Link variant="inherit" underline="hover" href="/games">
         Games
       </Link>
-      <Link variant="inherit" underline="hover" href="/#about">
-        About
-      </Link>
+      <HashLink smooth to="/#about">
+        <Link variant="inherit" underline="hover">
+          About
+        </Link>
+      </HashLink>
     </Box>
   );
 };
