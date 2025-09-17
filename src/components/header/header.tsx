@@ -2,6 +2,7 @@ import { Box, Link } from "@mui/material";
 import theme from "../../theme";
 import banner from "../../assets/banners/banner-large-transparent.svg";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Navigation = () => {
   return (
     <Box
@@ -64,7 +65,6 @@ export const Header = () => {
             margin: " 5px 0",
           }}
         />
-        <Navigation />
       </Box>
     </Box>
   );
