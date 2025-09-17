@@ -9,13 +9,13 @@ const Navigation = () => {
       data-testId="navigation"
     >
       {/* TODO: update links after implementing separate Games page */}
-      <Link variant="inherit" underline="hover" href="#">
+      <Link variant="inherit" underline="hover" href="/">
         Home
       </Link>
-      <Link variant="inherit" underline="hover" href="#games">
+      <Link variant="inherit" underline="hover" href="/games">
         Games
       </Link>
-      <Link variant="inherit" underline="hover" href="#about">
+      <Link variant="inherit" underline="hover" href="/#about">
         About
       </Link>
     </Box>
