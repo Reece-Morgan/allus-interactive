@@ -9,7 +9,6 @@ const Navigation = () => {
       sx={{ display: "flex", flexDirection: "row", gap: "20px" }}
       data-testId="navigation"
     >
-      {/* TODO: update links after implementing separate Games page */}
       <Link variant="inherit" underline="hover" href="/">
         Home
       </Link>

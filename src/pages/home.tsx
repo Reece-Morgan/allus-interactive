@@ -48,8 +48,6 @@ const Home = () => {
           alignItems: "center",
           justifyContent: "space-around",
         }}
-        // TODO: remove id after implementing separate Games page
-        id="games"
       >
         <GameTile
           img={grillMaster}
