@@ -1,3 +1,4 @@
+export { CurrentProject } from "./current-project/current-project";
 export { Footer } from "./footer/footer";
 export { GameTile } from "./game-tile/game-tile";
 export { Header } from "./header/header";
