@@ -18,6 +18,14 @@ From quick, arcade-style challenges to expansive RPGs with rich narratives, my t
 
 I strive to do my best to provide interactive storytelling and meaningful gameplay.`;
 
+export const currentProjectText = `My current project is a small 3D simulator game developed in the Godot engine, where you play as a personal shopper/delivery driver. It is your job to pick orders for customers, before delivering them swiftly and safely.
+
+As an avid fan of simulation games, I wanted to try my hand at creating my own, with a kind of arcade-style twist. This game is based off of my own personal experiences, and I hope this game becomes a fun, engaging experience for players to enjoy.
+
+This game is still in the early stages of development. I am aiming to have the first playable version available as a demo in October 2026. I will hopefully be showcasing this game that month at the Indie Arcade Moray (IAM) Gaming Expo!
+
+All assets currently used are either placeholder (such as the products, which will be replaced) or Kenney Assets (such as the environment models,which may be used in the final version)`;
+
 export const placeholderText = `Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.
 
 Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.

@@ -1,5 +1,12 @@
 import { Box, Typography } from "@mui/material";
-import { Footer, GameTile, Header, Hero, Section } from "@components";
+import {
+  CurrentProject,
+  Footer,
+  GameTile,
+  Header,
+  Hero,
+  Section,
+} from "@components";
 import theme from "./theme";
 import logo from "./assets/logo/logo.svg";
 import grillMaster from "./assets/game-tiles/grill-master.svg";
@@ -8,7 +15,12 @@ import trialsOfKhione from "./assets/game-tiles/trials-of-khione.svg";
 import about from "./assets/sections/about.svg";
 import mgj from "./assets/sections/mgj.svg";
 import games from "./assets/sections/games.svg";
-import { aboutText, mgjText, gamesText } from "./data/constants";
+import {
+  aboutText,
+  mgjText,
+  gamesText,
+  currentProjectText,
+} from "./data/constants";
 
 const App = () => {
   return (
@@ -69,6 +81,30 @@ const App = () => {
           altText="Pixel Survivor"
           buttonText="Play Now"
           buttonLink="https://allusinteractive.itch.io/pixel-survivor"
+        />
+      </Box>
+      <Typography
+        variant="h2"
+        component="h1"
+        sx={{
+          textAlign: "center",
+          fontWeight: 800,
+          color: theme.palette.primary.main,
+        }}
+      >
+        Current Project
+      </Typography>
+      <Box
+        sx={{
+          maxWidth: "1280px",
+          margin: "0 auto",
+        }}
+        id="current-project"
+      >
+        <CurrentProject
+          gameName="Speedy Shopper"
+          text={currentProjectText}
+          isLiveOnItch={false}
         />
       </Box>
       <Section
