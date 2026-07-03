@@ -12,7 +12,6 @@ import logo from "./assets/logo/logo.svg";
 import grillMaster from "./assets/game-tiles/grill-master.svg";
 import pixelSurvivor from "./assets/game-tiles/pixel-survivor.svg";
 import trialsOfKhione from "./assets/game-tiles/trials-of-khione.svg";
-import placeholder from "./assets/placeholder.svg";
 import about from "./assets/sections/about.svg";
 import mgj from "./assets/sections/mgj.svg";
 import games from "./assets/sections/games.svg";
@@ -20,7 +19,7 @@ import {
   aboutText,
   mgjText,
   gamesText,
-  placeholderText,
+  currentProjectText,
 } from "./data/constants";
 
 const App = () => {
@@ -95,26 +94,19 @@ const App = () => {
       >
         Current Project
       </Typography>
-      <CurrentProject
-        gameName="Speedy Shopper"
-        img={placeholder}
-        altText="Speedy Shopper Progression Snapshot"
-        text={placeholderText}
-      />
       <Box
         sx={{
           maxWidth: "1280px",
           margin: "0 auto",
-          display: "flex",
-          flexDirection: {
-            xs: "column",
-            md: "row",
-          },
-          alignItems: "center",
-          justifyContent: "space-around",
         }}
         id="current-project"
-      ></Box>
+      >
+        <CurrentProject
+          gameName="Speedy Shopper"
+          text={currentProjectText}
+          isLiveOnItch={false}
+        />
+      </Box>
       <Section
         isReversed={false}
         img={about}
