@@ -1,5 +1,4 @@
 import { CurrentProject } from "./current-project";
-import placeholder from "../../assets/placeholder.svg";
 
 export default {
   title: "Components/CurrentProject",
@@ -15,6 +14,10 @@ Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot 
 `;
 
 export const CurrentProjectComponent = () => (
-  <CurrentProject gameName="Game Name" img={placeholder} altText="Game Image" text={placeholderText} />
+  <CurrentProject
+    gameName="Game Name"
+    text={placeholderText}
+    isLiveOnItch={false}
+  />
 );
 CurrentProjectComponent.storyName = "Current Project";
