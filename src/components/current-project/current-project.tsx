@@ -110,7 +110,7 @@ export const CurrentProject = ({ gameName, text, isLiveOnItch }: Props) => {
           >
             {text}
           </Typography>
-          < br/>
+          <br />
           <Typography
             sx={{
               whiteSpace: "pre-line",
@@ -123,7 +123,11 @@ export const CurrentProject = ({ gameName, text, isLiveOnItch }: Props) => {
             data-testid="current-project-text"
           >
             Find out more about the Indie Arcade Moray Gaming Expo&nbsp;
-            <Link href="https://www.indiegamesquad.co.uk/iam-gaming-expo/" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://www.indiegamesquad.co.uk/iam-gaming-expo/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               here!
             </Link>
           </Typography>

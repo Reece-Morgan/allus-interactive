@@ -1,4 +1,9 @@
 import type { Screenshot } from "@components/carousel/carousel";
+import house_exterior_1 from "../assets/current-project/house_exterior_1.png";
+import shop_interior_1 from "../assets/current-project/shop_interior_1.png";
+import shop_exterior from "../assets/current-project/shop_exterior.png";
+import shop_interior_2 from "../assets/current-project/shop_interior_2.png";
+import house_exterior_2 from "../assets/current-project/house_exterior_2.png";
 
 export const aboutText = `Hi! I'm Reece, founder of Allus Interactive.
 
@@ -37,22 +42,22 @@ Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot 
 export const carouselImages: Screenshot[] = [
   {
     title: "House Exterior 1",
-    image: "/src/assets/current-project/house_exterior_1.png",
+    image: house_exterior_1,
   },
   {
     title: "Shop Interior 1",
-    image: "/src/assets/current-project/shop_interior_1.png",
+    image: shop_interior_1,
   },
   {
     title: "Shop Exterior",
-    image: "/src/assets/current-project/shop_exterior.png",
+    image: shop_exterior,
   },
   {
     title: "Shop Interior 2",
-    image: "/src/assets/current-project/shop_interior_2.png",
+    image: shop_interior_2,
   },
   {
     title: "House Exterior 2",
-    image: "/src/assets/current-project/house_exterior_2.png",
+    image: house_exterior_2,
   },
 ];
