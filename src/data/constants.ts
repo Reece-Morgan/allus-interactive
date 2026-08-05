@@ -1,3 +1,5 @@
+import type { Screenshot } from "@components/carousel/carousel";
+
 export const aboutText = `Hi! I'm Reece, founder of Allus Interactive.
 
 Allus Interactive is an indie game studio passionate about creating fun, engaging games for everyone to enjoy.
@@ -22,9 +24,8 @@ export const currentProjectText = `My current project is a small 3D simulator ga
 
 As an avid fan of simulation games, I wanted to try my hand at creating my own, with a kind of arcade-style twist. This game is based off of my own personal experiences, and I hope this game becomes a fun, engaging experience for players to enjoy.
 
-This game is still in the early stages of development. I am aiming to have the first playable version available as a demo in October 2026. I will hopefully be showcasing this game that month at the Indie Arcade Moray (IAM) Gaming Expo!
-
-All assets currently used are either placeholder (such as the products, which will be replaced) or Kenney Assets (such as the environment models,which may be used in the final version)`;
+This game is still in the early stages of development. I am aiming to have the first playable version available as a demo in October 2026. I will be showcasing this game that month at the Indie Arcade Moray (IAM) Gaming Expo!
+`;
 
 export const placeholderText = `Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.
 
@@ -32,3 +33,26 @@ Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside c
 
 Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.
 `;
+
+export const carouselImages: Screenshot[] = [
+  {
+    title: "House Exterior 1",
+    image: "/src/assets/current-project/house_exterior_1.png",
+  },
+  {
+    title: "Shop Interior 1",
+    image: "/src/assets/current-project/shop_interior_1.png",
+  },
+  {
+    title: "Shop Exterior",
+    image: "/src/assets/current-project/shop_exterior.png",
+  },
+  {
+    title: "Shop Interior 2",
+    image: "/src/assets/current-project/shop_interior_2.png",
+  },
+  {
+    title: "House Exterior 2",
+    image: "/src/assets/current-project/house_exterior_2.png",
+  },
+];

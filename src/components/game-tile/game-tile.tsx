@@ -19,7 +19,7 @@ export const GameTile = ({ img, altText, buttonText, buttonLink }: Props) => {
         width: "30%",
         gap: "25px",
       }}
-      data-testId="game-tile"
+      data-testid="game-tile"
     >
       <Box
         component="img"

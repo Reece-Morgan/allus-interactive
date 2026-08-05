@@ -10,7 +10,14 @@ interface Props {
   id?: string;
 }
 
-export const Section = ({ isReversed, img, altText, text, title, id }: Props) => {
+export const Section = ({
+  isReversed,
+  img,
+  altText,
+  text,
+  title,
+  id,
+}: Props) => {
   return (
     <div data-testid="section" id={id}>
       <Typography
@@ -21,7 +28,7 @@ export const Section = ({ isReversed, img, altText, text, title, id }: Props) =>
           fontWeight: 800,
           color: theme.palette.primary.main,
         }}
-        data-testId="section-title"
+        data-testid="section-title"
       >
         {title}
       </Typography>

@@ -6,7 +6,7 @@ import banner from "../../assets/banners/banner-large-transparent.svg";
 //   return (
 //     <Box
 //       sx={{ display: "flex", flexDirection: "row", gap: "20px" }}
-//       data-testId="navigation"
+//       data-testid="navigation"
 //     >
 //       {/* TODO: update links after implementing separate Games page */}
 //       <Link variant="inherit" underline="hover" href="#">
@@ -39,7 +39,7 @@ export const Header = () => {
         top: "0",
         zIndex: 9,
       }}
-      data-testId="header"
+      data-testid="header"
     >
       <Box
         sx={{

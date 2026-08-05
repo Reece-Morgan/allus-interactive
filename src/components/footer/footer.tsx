@@ -36,7 +36,7 @@ export const Footer = () => {
         backgroundColor: "transparent",
         borderTop: `1px solid ${theme.palette.primary.main}`,
       }}
-      data-testId="footer"
+      data-testid="footer"
     >
       <Box
         sx={{
@@ -48,7 +48,7 @@ export const Footer = () => {
           flexDirection: "column",
         }}
       >
-        <p>&copy; Allus Interactive 2025. All rights reserved.</p>
+        <p>&copy; Allus Interactive 2026. All rights reserved.</p>
         <SocialIcons />
         <Box
           component="img"

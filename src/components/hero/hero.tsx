@@ -29,7 +29,7 @@ export const Hero = ({
         backgroundColor: "rgba(0, 0, 0, 0.25)",
         gap: "50px",
       }}
-      data-testId="hero"
+      data-testid="hero"
     >
       <Box
         component="img"
