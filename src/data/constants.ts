@@ -1,9 +1,9 @@
 import type { Screenshot } from "@components/carousel/carousel";
-import house_exterior_1 from "../assets/current-project/house_exterior_1.png";
-import shop_interior_1 from "../assets/current-project/shop_interior_1.png";
-import shop_exterior from "../assets/current-project/shop_exterior.png";
-import shop_interior_2 from "../assets/current-project/shop_interior_2.png";
-import house_exterior_2 from "../assets/current-project/house_exterior_2.png";
+import shop_products_1 from "../assets/current-project/shop_products_1.png";
+import shop_products_2 from "../assets/current-project/shop_products_2.png";
+import shop_products_3 from "../assets/current-project/shop_products_3.png";
+import van from "../assets/current-project/van.png";
+import van_driving from "../assets/current-project/van_driving.png";
 
 export const aboutText = `Hi! I'm Reece, founder of Allus Interactive.
 
@@ -41,23 +41,23 @@ Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot 
 
 export const carouselImages: Screenshot[] = [
   {
-    title: "House Exterior 1",
-    image: house_exterior_1,
-  },
-  {
     title: "Shop Interior 1",
-    image: shop_interior_1,
+    image: shop_products_1,
   },
   {
-    title: "Shop Exterior",
-    image: shop_exterior,
+    title: "The Delivery Van",
+    image: van,
   },
   {
     title: "Shop Interior 2",
-    image: shop_interior_2,
+    image: shop_products_2,
   },
   {
-    title: "House Exterior 2",
-    image: house_exterior_2,
+    title: "The Delivery Van in action",
+    image: van_driving,
+  },
+  {
+    title: "Shop Interior 3",
+    image: shop_products_3,
   },
 ];
