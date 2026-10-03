@@ -122,7 +122,7 @@ export const CurrentProject = ({ gameName, text, isLiveOnItch }: Props) => {
             }}
             data-testid="current-project-text"
           >
-            PDownload and Play the Demo on itch.io&nbsp;
+            Download and Play the Demo on itch.io&nbsp;
             <Link
               href="https://allusinteractive.itch.io/speedy-shopper"
               target="_blank"
