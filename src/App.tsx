@@ -104,7 +104,7 @@ const App = () => {
         <CurrentProject
           gameName="Speedy Shopper"
           text={currentProjectText}
-          isLiveOnItch={false}
+          isLiveOnItch={true}
         />
       </Box>
       <Section

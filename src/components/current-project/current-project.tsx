@@ -122,7 +122,13 @@ export const CurrentProject = ({ gameName, text, isLiveOnItch }: Props) => {
             }}
             data-testid="current-project-text"
           >
-            Find out more about the Indie Arcade Moray Gaming Expo&nbsp;
+            PDownload and Play the Demo on itch.io&nbsp;
+            <Link
+              href="https://allusinteractive.itch.io/speedy-shopper"
+              target="_blank"
+              rel="noopener noreferrer"
+            > here </Link>
+            and find out more about the Indie Arcade Moray Gaming Expo&nbsp;
             <Link
               href="https://www.indiegamesquad.co.uk/iam-gaming-expo/"
               target="_blank"
